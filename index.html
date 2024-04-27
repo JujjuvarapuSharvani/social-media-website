@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Social Media Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="box">
+        <header>
+            <h2>Social Media Website - SHARVANI</h2>
+        </header>
+    </div>
+
+    <nav>
+        <ul>
+            <li><a href="#">Dashboard</a></li>
+            <li><a href="#">Profile</a></li>
+            <li><a href="#">Analytics</a></li>
+            <li><a href="#">Settings</a></li>
+            <!-- Add more menu items as needed -->
+        </ul>
+    </nav>
+
+    <div class="container">
+        <div class="dashboard-section">
+            <h2>Overview</h2>
+            <div class="stats">
+                <div class="chart-container">
+                    <h3>Followers</h3>
+                    <canvas id="followersChart"></canvas>
+                    <img src="https://cdn-icons-png.flaticon.com/512/7884/7884103.png" width="130" height="130" style="float:left">
+                </div>
+                <div class="chart-container">
+                    <h3>Likes</h3>
+                    <canvas id="likesChart"></canvas>
+                    <img src="https://png.pngtree.com/png-vector/20230124/ourmid/pngtree-social-media-100k-likes-png-image_6564193.png"width="150" height="150" style="float:left">
+                </div>
+                <div class="chart-container">
+                    <h3>Retweets</h3>
+                    <canvas id="retweetsChart"></canvas>
+                    <img src="https://cdn-icons-png.flaticon.com/512/1646/1646819.png" width="130" height="130" style="float:left">
+                </div>
+                <div class="chart-container">
+                    <h3>Share</h3>
+                    <canvas id="Share"></canvas>
+                    <img src="https://img.favpng.com/12/3/2/social-media-portable-network-graphics-share-icon-computer-icons-image-png-favpng-5EZ17mi8nFVhDqAE1n7p4G1LA.jpg"width="130" height="130" style="float:left">
+                </div>
+            </div>
+        </div>
+
+        <script src="script.js"></script>
+</body>
+
+</html>
